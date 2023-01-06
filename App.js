@@ -1,6 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import Navigator from './config/navigation';
-
+import Navigator from './src/config/navigation';
 export default function App() {
   return (
     <View style={styles.container}>

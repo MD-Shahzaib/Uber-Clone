@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
-function Destination() {
+export default function Destination({ navigation }) {
     return (
         <View>
             <Text>This is Destination Screen</Text>
+            {/* <Button title="Pickup" onPress={() => { navigation.navigate('Pickup') }} />
+            <Button title="CarSelection" onPress={() => { navigation.navigate('CarSelection') }} /> */}
         </View>
     )
 }
-
-export default Destination;

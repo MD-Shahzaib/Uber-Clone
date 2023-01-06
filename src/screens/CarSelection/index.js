@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
-function CarSelection() {
+export default function CarSelection({ navigation }) {
     return (
         <View>
-            <Text>This is Car Selection Screen</Text>
+            <Text>This is Car-Selection Screen</Text>
+            {/* <Button title="Pickup" onPress={() => { navigation.navigate('Pickup') }} />
+            <Button title="Destination" onPress={() => { navigation.navigate('Destination') }} /> */}
         </View>
     )
 }
-
-export default CarSelection;
